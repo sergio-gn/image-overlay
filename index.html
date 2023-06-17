@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Text Overlay</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div>
+            <div class="d-flex m-auto">
+                <div class="card m-auto">
+                    <h2>Image Text Overlay</h2>
+                    <form method="POST" action="meme1.php">
+                        <div class="form-group">
+                            <img src="https://i.pinimg.com/736x/19/26/96/192696fe4b50aec395b35d63c2539bbc.jpg" />
+                            <input type="hidden" name="image_url" value="https://i.pinimg.com/736x/19/26/96/192696fe4b50aec395b35d63c2539bbc.jpg">
+                        </div>
+                        <div class="form-group">
+                            <label for="text">Text:</label>
+                            <input type="text" name="text" id="text" required>
+                        </div>
+                        <input type="submit" value="Overlay Text">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
